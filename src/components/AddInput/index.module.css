@@ -1,0 +1,26 @@
+.add-input {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input {
+  width:80%;
+  height: 40px;
+  border-radius: 20px;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  margin: 0 0 0 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
