@@ -9,7 +9,7 @@ import AddItem from './components/AddItem';
 function App() {
   const todos = useSelector(state => state.todos.todos);
   const [filtered, setFiltered] = useState([]);
-  const [showModal, setShowModal] = useState([]);
+  const [showModal, setShowModal] = useState(false);
   const dispatch = useDispatch();
   useEffect(() => {
     setFiltered(todos);
